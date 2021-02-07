@@ -1,4 +1,8 @@
-# Bank_Account
+# Bank_Account (State Pattern)
+
+
+![BankAccount_ClassDiagram](https://user-images.githubusercontent.com/44247875/107162737-8f527c00-69a5-11eb-8032-34418ea50665.jpg)
+
 
 I used State pattern to implement a simple bank account. An account (class BankAccount) can be opened (using the constructor BankAccount()) and has an initial balance of 0. An account has the state Positive, if its balance is greater than or equal to 0. If the balance is lower than 0, the account is Negative. Money is added to the account by using the method payIn() and withdrawn by calling payOff().
 
